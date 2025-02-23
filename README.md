@@ -1,1 +1,1 @@
-These are practice problems from Leetcode that I've coded myself without the help of others or looking at people's solutions.
+These are practice problems from Leetcode and school that I've coded myself without the help of others or looking at their solutions.
