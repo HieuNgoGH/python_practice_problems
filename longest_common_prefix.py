@@ -4,6 +4,7 @@ def longest_common_prefix(array):
 
     items_in_array = (len(array))
 
+    # find the string with the lowest amount of characters
     least_item_size = len(array[0])
     for item in array:
         if len(item) < least_item_size:
@@ -14,10 +15,12 @@ def longest_common_prefix(array):
     item_prefix = ""
     items_in_array = len(array)
 
+    # if there's only 1 item in array, that item is the longest common prefix
     if len(array) == 1:
         item_prefix = array[0]
         return item_prefix
 
+    # return black if array has nothing in it
     if least_item_size == 0:
         return item_prefix
 
