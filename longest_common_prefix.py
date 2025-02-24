@@ -40,7 +40,3 @@ def longest_common_prefix(array):
     print(item_prefix)
     return item_prefix
 
-
-sample_array = ["ab", "a"]
-print(longest_common_prefix(sample_array))
-
