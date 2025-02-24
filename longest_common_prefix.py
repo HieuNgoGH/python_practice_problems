@@ -1,4 +1,3 @@
-
 # Write a function to find the longest common prefix amongst an array of strings
 def longest_common_prefix(array):
 
