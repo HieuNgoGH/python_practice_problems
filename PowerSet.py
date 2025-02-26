@@ -18,5 +18,5 @@ def powerset(input):
     powerset_helper(len(input)-1, [], input, result)
     return result
 
-nums = [1,2,3]
-print(powerset(nums))
+#nums = [1,2,3]
+#print(powerset(nums))
