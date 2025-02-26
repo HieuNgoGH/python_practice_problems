@@ -31,6 +31,6 @@ def dna_match_topdown(DNA1, DNA2):
 
     return dna_match_topdown_helper(DNA1, DNA2, len(DNA1), len(DNA2))
 
-str1 = "ATAGTTCCGTCAAA"
-str2 = "GTGTTCCCGTCAAA"
-print(dna_match_topdown(str1, str2))
+#str1 = "ATAGTTCCGTCAAA"
+#str2 = "GTGTTCCCGTCAAA"
+#print(dna_match_topdown(str1, str2))
