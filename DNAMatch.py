@@ -12,8 +12,8 @@ def dna_match_bottomup(DNA1, DNA2):
                 cache[i][j] = max(cache[i - 1][j], cache[i][j - 1])
     return cache[m][n]
 
-str1 = "ATAGTTCCGTCAAA"
-str2 = "GTGTTCCCGTCAAA"
+#str1 = "ATAGTTCCGTCAAA"
+#str2 = "GTGTTCCCGTCAAA"
 #print(dna_match_bottomup(str1, str2))
 
 def dna_match_topdown_helper(str1, str2, m, n):
